@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style: none!important;
+}
+li {
+    padding: 5px;
+    font-size:20px;
+    list-style-type: disc;
+}
+img {
+    box-shadow: 2px 5px 32px 42px rgba(30, 0, 0, 0.068);
+} 
+
+@media only screen and (max-width:700px) {
+    .input-md {
+        height: 100px;
+    }
+}

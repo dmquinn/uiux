@@ -1,0 +1,66 @@
+In this module, we're going to discuss the actual job of being a designer.
+
+I've had the opportunity to work on projects with designers and learn a lot about what that job actually looks like, and entails.
+
+We'll go through the list and talk about each one briefly.
+
+The most important one is about understanding the constraints of tech, and how that relates to the compromise of designers.
+
+We had a conversation with Murilo when I first arrived here about some sort of collaboration between UI/UX and the web dev students.  There was the idea about web dev students coming in and talking about the viability of implementing designs.  
+
+Allocation of resources!!
+
+**********************************************
+
+Let's talk about pixel density. Pixel density refers to how many pixels there are in one physical amount of space.  For most of the time of monitor development, this was an inch, but the terminology is becoming less standardized. 
+
+On the first mac computer there were 72 pixels.  That means a grid of 72 pixels for every inch (25.4mm).  Maybe that sounds like a lot, but when you consider that the absolute lowest quality machine you can buy will have at the very least 160 pixels per inch - the most recent macbook for example has a pixel density of 254 Pixels per inch.
+
+************************************************
+
+There was a bit of a game changer in 2010 with one of the iphone releases (I'd guess iphone 4?) which introduced what they called retina display.  Essentially, the retina display doubled the amount of pixels per inch.  This was huge for the tech indusry as a whole but actually a total headache for designers.  What it meant was that a button which had been 44px tall was now 88px tall.  The new ratio meant that for every pixel on older devices, there were 2px on the new retina displays.  The easiest way to circumvent this difference was to actually just design graphics, icons, buttons -  at two different sizes. 
+
+Designers could therefore no longer say that a button was x amount of pixels, as that meant different things over different devices, so that's when we introduced POINTS.
+
+Points per inch was supposed to take both of these ratios into account, and meant that there was / is a standardized way for designers to communicate dimensions when designing for the web.
+
+*******************************
+
+The problem we run into is that after android introduced their competitor to the iphone 4, they didn't stick with Apple`s dpi, but insisted on using DIP which stands for device independent pixels.
+
+As tech develops, there are now hundreds of different pixel - space ratios that we have to be aware of.  SHOW PICTURE
+
+So an icon which looks the same size on each screen has to actually be different graphics.
+
+How do we get around this?
+
+
+Now I'll admit that I'm not a designer and therefore don't know exactly what the industry standards look like.
+
+Vector graphics - 
+
+    I don't know how much you've covered vectors but basically what it is is a type of graphic which doesn't contain an actual map of pixels, but contains information which tells your computer how to draw the image.
+
+    Of course the huge benefit of this is that you can scale graphics to whatever size you want without increasing the size of thr pixels
+
+The recommended approach is designing at 1x, you can then export at 200% or 300% scale for 2x or 3x assets, and the results remain pixel perfect.
+
+****************************
+
+Different screen sizes could sometimes have different graphics, or at the very least be different sizes. 
+
+One example where this is very common is with inputs.  How do we interact with elements on our phones vs our computers for example?  We do it with our fingers instead of a cursor, so the average size of a text input for example is twice as big on phone screen sizes as on desktop screens.
+
+***show youtube as example
+
+Now you guys are the designers so you'll have a better idea than me of what this could look like, but you can imagine the way the content is delivered here isn's very intuitive.  So if you look at the content
+
+*******************************
+
+Before we move on, we should talk a little bit about accessibility.  It is absolutely crucial to consider this given that we all interact with the web in some way these days.  
+
+One of the reasons it's so difficult to talk about accessibility is that it's such a broad concept.  Accessibility covers everything from considering specific physical disabilities that might impede people's use of the internet, to restrictions on bandwidth speed and everything in between.
+
+Let's talk about physical disabilities for now.  One of the most obvious impediments to being able to intake content on the web is visual imparement. We can use screen readers to describe to us what's going on on the screen.
+
+To do this we have to be aware of which HTML tags we're using.

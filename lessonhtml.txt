@@ -1,0 +1,18 @@
+So let's get into the meat of it.  Basically on every website, what the browser is interacting with is 3 different things.  We are going to be dealing with two of them over the next couple of days.
+
+*****Look at image.
+
+HTML = bones, CSS = skin, JS = Muscles
+
+HTML means hypertext markup language and consists of different tags which act as building blocks for every website we see on the web.  
+
+We can actually go in and remove all the styling just now from a website to see what this looks like.
+
+****************************
+
+If we click around the web a bit, we'll see that all websites are built out of these elements.  And basically, as technologies move forward and get more and more complex, at the end of the day they will always be converting eventually to HTML.  
+
+***************************
+
+We'll next talk about the most common tags used.  
+
