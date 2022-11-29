@@ -1,21 +1,63 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    list-style: none!important;
+body {
+    margin: 0;
+    padding: 50px;
+    max-width: 100%;
 }
-li {
-    padding: 5px;
-    font-size:20px;
-    list-style-type: disc;
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.card {
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 40px 20px rgba(41, 41, 41, 0.212);
+    margin-bottom: 50px;
 }
 img {
-    box-shadow: 2px 5px 32px 42px rgba(30, 0, 0, 0.068);
-} 
-
-@media only screen and (max-width:700px) {
-    .input-md {
-        height: 100px;
-    }
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
 }
+img:hover {
+    height: 450px;
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+.profileImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profileImg:hover {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+button {
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
